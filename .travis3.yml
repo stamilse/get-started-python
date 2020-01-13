@@ -20,9 +20,9 @@ deploy:
 - provider: cloudfoundry
   username: apikey
   password: $apikey
-  api: https://api.ng.bluemix.net
-  organization: tidhamecha
-  space: here
+  api: https://api.eu-gb.bluemix.net
+  organization: manojathreya13@gmail.com
+  space: dev
   manifest: manifest.yml
   on:
     branch: develop
